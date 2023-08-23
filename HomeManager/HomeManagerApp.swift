@@ -26,6 +26,7 @@ struct HomeManagerApp: App {
     }
 }
 
+//アプリ起動時に実行
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         // 起動時に1回だけ処理
@@ -35,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if currentUser == nil {
             //未ログイン
             print("アプリ起動時：未ログイン状態です")
-            //ログイン or サインアップ処理を記述
+            //TODO: ログイン or サインアップ処理を記述
         } else {
             //ログイン中
             print("アプリ起動時：ログイン中です")
