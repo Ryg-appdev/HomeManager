@@ -11,6 +11,7 @@
 		299D725E2A963F7300ADDA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299D725D2A963F7300ADDA50 /* Assets.xcassets */; };
 		299D72612A963F7400ADDA50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299D72602A963F7400ADDA50 /* Preview Assets.xcassets */; };
 		299D726A2A964A8500ADDA50 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D72692A964A8500ADDA50 /* MainView.swift */; };
+		299D726D2A96569A00ADDA50 /* NCMB in Frameworks */ = {isa = PBXBuildFile; productRef = 299D726C2A96569A00ADDA50 /* NCMB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299D726D2A96569A00ADDA50 /* NCMB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = HomeManager;
+			packageProductDependencies = (
+				299D726C2A96569A00ADDA50 /* NCMB */,
+			);
 			productName = HomeManager;
 			productReference = 299D72562A963F7300ADDA50 /* HomeManager.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 299D724D2A963F7300ADDA50;
+			packageReferences = (
+				299D726B2A96569A00ADDA50 /* XCRemoteSwiftPackageReference "ncmb_swift" */,
+			);
 			productRefGroup = 299D72572A963F7300ADDA50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		299D726B2A96569A00ADDA50 /* XCRemoteSwiftPackageReference "ncmb_swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NIFCLOUD-mbaas/ncmb_swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		299D726C2A96569A00ADDA50 /* NCMB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 299D726B2A96569A00ADDA50 /* XCRemoteSwiftPackageReference "ncmb_swift" */;
+			productName = NCMB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 299D724E2A963F7300ADDA50 /* Project object */;
 }

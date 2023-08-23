@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ncmb_swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NIFCLOUD-mbaas/ncmb_swift",
+      "state" : {
+        "revision" : "b6a5e742e7a4c46443d61e4c71f5fbbf72c33155",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}
