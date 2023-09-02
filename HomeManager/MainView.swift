@@ -6,10 +6,29 @@
 //
 
 import SwiftUI
+import NCMB
 
 struct MainView: View {
+    @State var user = NCMBUser.currentUser
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Spacer()
+            Text("MainView")
+                .font(.title)
+                .foregroundColor(Color.blue)
+            if let userName = user?.userName {
+                Text("\(userName)さん、ようこそ")
+                    .font(.title2)
+            }
+            Spacer()
+            Text("Hello, World!")
+            Spacer()
+        }
+        .onAppear {
+            print("MainView")
+        }
+        .navigationBarBackButtonHidden(true) 
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295BB3402A97A0130039C4A1 /* SprashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295BB33F2A97A0130039C4A1 /* SprashView.swift */; };
+		295BB3422A97AA650039C4A1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295BB3412A97AA650039C4A1 /* SignUpView.swift */; };
 		299D725A2A963F7300ADDA50 /* HomeManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D72592A963F7300ADDA50 /* HomeManagerApp.swift */; };
 		299D725E2A963F7300ADDA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299D725D2A963F7300ADDA50 /* Assets.xcassets */; };
 		299D72612A963F7400ADDA50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299D72602A963F7400ADDA50 /* Preview Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		295BB33F2A97A0130039C4A1 /* SprashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprashView.swift; sourceTree = "<group>"; };
+		295BB3412A97AA650039C4A1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		299D72562A963F7300ADDA50 /* HomeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299D72592A963F7300ADDA50 /* HomeManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManagerApp.swift; sourceTree = "<group>"; };
 		299D725D2A963F7300ADDA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 				299D72592A963F7300ADDA50 /* HomeManagerApp.swift */,
 				299D72692A964A8500ADDA50 /* MainView.swift */,
 				299D72702A965E1600ADDA50 /* SignInView.swift */,
+				295BB33F2A97A0130039C4A1 /* SprashView.swift */,
+				295BB3412A97AA650039C4A1 /* SignUpView.swift */,
 				299D725D2A963F7300ADDA50 /* Assets.xcassets */,
 				299D725F2A963F7400ADDA50 /* Preview Content */,
 			);
@@ -149,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				299D72712A965E1600ADDA50 /* SignInView.swift in Sources */,
+				295BB3422A97AA650039C4A1 /* SignUpView.swift in Sources */,
 				299D726A2A964A8500ADDA50 /* MainView.swift in Sources */,
 				299D725A2A963F7300ADDA50 /* HomeManagerApp.swift in Sources */,
+				295BB3402A97A0130039C4A1 /* SprashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
